@@ -54,7 +54,7 @@ namespace Tests
 
         [TestCase(0, 0)]
         [TestCase(1, 1)]
-        [TestCase(10, 9)]
+        [TestCase(10, 10)]
         public void ReturnRequestedCount(int count, int result)
         {
             const int PAGE = 0; // take the first page of results
